@@ -1,6 +1,16 @@
 # Important Notes
 
-Please update the `.env` and `.env.testing` when clone the repository in order to system works
+Please update the `.env` and `.env.testing` when clone the repository in order to system works!
+The following info there is necessary for the system works:
+
+```
+DB_HOST=put_your_host_here
+DB_DATABASE=put_your_database_here
+DB_USERNAME=put_your_username_here
+DB_PASSWORD=put_your_password_here
+
+SLACK_WEBHOOK=put_your_slack_webhook_here
+```
 
 # API Map
 

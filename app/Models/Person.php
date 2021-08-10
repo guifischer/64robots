@@ -46,7 +46,7 @@ class Person extends Model
     
     public function routeNotificationForSlack($notification)
     {
-        return 'https://hooks.slack.com/services/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';
+        return env("SLACK_WEBHOOK");
     }
 
     /*
